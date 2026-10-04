@@ -1,0 +1,19 @@
+[
+  "tests/test_analytics.py::test_analytics_dashboard_metrics",
+  "tests/test_auth.py::test_authenticated_request_success",
+  "tests/test_auth.py::test_unauthenticated_request_rejected",
+  "tests/test_freshness.py::test_expired_item_calculation",
+  "tests/test_freshness.py::test_expiring_soon_item_calculation",
+  "tests/test_freshness.py::test_fresh_item_calculation",
+  "tests/test_items.py::test_create_item_and_freshness_calculation",
+  "tests/test_items.py::test_delete_item",
+  "tests/test_items.py::test_item_retrieval_and_filtering",
+  "tests/test_items.py::test_update_item_status_creates_event",
+  "tests/test_items.py::test_user_isolation",
+  "tests/test_notifications.py::test_duplicate_notification_prevention",
+  "tests/test_notifications.py::test_mark_notification_read_and_delete",
+  "tests/test_parsing.py::test_parse_explicit_date_expression",
+  "tests/test_parsing.py::test_parse_natural_item_text_variations",
+  "tests/test_parsing.py::test_shelf_life_default_when_no_date_provided",
+  "tests/test_recipes.py::test_recipe_generation_uses_expiring_items"
+]

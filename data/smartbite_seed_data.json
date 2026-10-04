@@ -1,0 +1,273 @@
+{
+  "description": "SmartBite Seed & Sample Kitchen Data",
+  "version": "1.0.0",
+  "generated_at": "2026-10-04T12:00:00Z",
+  "categories": [
+    {
+      "id": "cat-dairy",
+      "name": "Dairy & Eggs",
+      "default_shelf_life_days": 10,
+      "storage_location": "Fridge",
+      "icon": "milk"
+    },
+    {
+      "id": "cat-produce-veg",
+      "name": "Vegetables & Greens",
+      "default_shelf_life_days": 5,
+      "storage_location": "Fridge",
+      "icon": "salad"
+    },
+    {
+      "id": "cat-produce-fruit",
+      "name": "Fresh Fruits",
+      "default_shelf_life_days": 7,
+      "storage_location": "Pantry",
+      "icon": "apple"
+    },
+    {
+      "id": "cat-bakery",
+      "name": "Bakery & Bread",
+      "default_shelf_life_days": 5,
+      "storage_location": "Pantry",
+      "icon": "croissant"
+    },
+    {
+      "id": "cat-meat",
+      "name": "Meat & Seafood",
+      "default_shelf_life_days": 3,
+      "storage_location": "Fridge",
+      "icon": "beef"
+    },
+    {
+      "id": "cat-pantry",
+      "name": "Pantry Staples & Grains",
+      "default_shelf_life_days": 90,
+      "storage_location": "Pantry",
+      "icon": "package"
+    }
+  ],
+  "sample_inventory_items": [
+    {
+      "id": "item-001",
+      "name": "Whole Milk (1 Gallon)",
+      "category": "Dairy & Eggs",
+      "quantity": 1,
+      "unit": "gallon",
+      "location": "Fridge",
+      "purchase_date": "2026-10-01",
+      "expiry_date": "2026-10-05T18:00:00Z",
+      "status": "EXPIRING_SOON",
+      "confidence": 0.95,
+      "notes": "Opened 3 days ago"
+    },
+    {
+      "id": "item-002",
+      "name": "Organic Baby Spinach",
+      "category": "Vegetables & Greens",
+      "quantity": 250,
+      "unit": "g",
+      "location": "Fridge",
+      "purchase_date": "2026-10-02",
+      "expiry_date": "2026-10-05T09:00:00Z",
+      "status": "EXPIRING_SOON",
+      "confidence": 0.92,
+      "notes": "Use for green smoothie or saute"
+    },
+    {
+      "id": "item-003",
+      "name": "Greek Yogurt (Plain)",
+      "category": "Dairy & Eggs",
+      "quantity": 500,
+      "unit": "g",
+      "location": "Fridge",
+      "purchase_date": "2026-10-01",
+      "expiry_date": "2026-10-06T12:00:00Z",
+      "status": "EXPIRING_SOON",
+      "confidence": 0.88,
+      "notes": "Breakfast parfaits"
+    },
+    {
+      "id": "item-004",
+      "name": "Ripe Hass Avocados",
+      "category": "Fresh Fruits",
+      "quantity": 2,
+      "unit": "pcs",
+      "location": "Pantry",
+      "purchase_date": "2026-10-02",
+      "expiry_date": "2026-10-05T20:00:00Z",
+      "status": "EXPIRING_SOON",
+      "confidence": 0.9,
+      "notes": "Soft to the touch, ready to eat"
+    },
+    {
+      "id": "item-005",
+      "name": "Free-Range Large Eggs",
+      "category": "Dairy & Eggs",
+      "quantity": 12,
+      "unit": "count",
+      "location": "Fridge",
+      "purchase_date": "2026-10-01",
+      "expiry_date": "2026-10-22T00:00:00Z",
+      "status": "FRESH",
+      "confidence": 0.98,
+      "notes": "Standard carton"
+    },
+    {
+      "id": "item-006",
+      "name": "Artisan Sourdough Loaf",
+      "category": "Bakery & Bread",
+      "quantity": 1,
+      "unit": "loaf",
+      "location": "Pantry",
+      "purchase_date": "2026-10-03",
+      "expiry_date": "2026-10-07T12:00:00Z",
+      "status": "FRESH",
+      "confidence": 0.85,
+      "notes": "Can freeze half if unused"
+    },
+    {
+      "id": "item-007",
+      "name": "Chicken Breast Fillets",
+      "category": "Meat & Seafood",
+      "quantity": 600,
+      "unit": "g",
+      "location": "Fridge",
+      "purchase_date": "2026-10-03",
+      "expiry_date": "2026-10-06T23:59:00Z",
+      "status": "EXPIRING_SOON",
+      "confidence": 0.94,
+      "notes": "Cook for dinner or freeze"
+    },
+    {
+      "id": "item-008",
+      "name": "Roma Tomatoes",
+      "category": "Vegetables & Greens",
+      "quantity": 4,
+      "unit": "pcs",
+      "location": "Pantry",
+      "purchase_date": "2026-10-01",
+      "expiry_date": "2026-10-08T00:00:00Z",
+      "status": "FRESH",
+      "confidence": 0.87,
+      "notes": "Fresh salad or pasta sauce"
+    },
+    {
+      "id": "item-009",
+      "name": "Fresh Strawberries",
+      "category": "Fresh Fruits",
+      "quantity": 1,
+      "unit": "box",
+      "location": "Fridge",
+      "purchase_date": "2026-09-28",
+      "expiry_date": "2026-10-03T12:00:00Z",
+      "status": "EXPIRED",
+      "confidence": 0.9,
+      "notes": "Check for mold before compost"
+    },
+    {
+      "id": "item-010",
+      "name": "Jasmine White Rice",
+      "category": "Pantry Staples & Grains",
+      "quantity": 2,
+      "unit": "kg",
+      "location": "Pantry",
+      "purchase_date": "2026-09-15",
+      "expiry_date": "2027-03-15T00:00:00Z",
+      "status": "FRESH",
+      "confidence": 0.99,
+      "notes": "Airtight container"
+    }
+  ],
+  "sample_recipes": [
+    {
+      "id": "rec-001",
+      "title": "Creamy Spinach & Avocado Scramble",
+      "description": "A quick, nourishing 10-minute breakfast that rescues expiring spinach and ripe avocados.",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 5,
+      "difficulty": "Easy",
+      "servings": 2,
+      "rescued_ingredients": [
+        "Organic Baby Spinach",
+        "Ripe Hass Avocados",
+        "Free-Range Large Eggs"
+      ],
+      "instructions": [
+        "Whisk 4 eggs with a splash of milk, pinch of salt, and freshly cracked black pepper.",
+        "Melt butter in a non-stick skillet over medium-low heat. Add 2 cups of baby spinach and toss until lightly wilted (about 1 minute).",
+        "Pour in the egg mixture and gently fold with a silicone spatula until soft curds form.",
+        "Turn off the heat and fold in diced ripe avocado gently to warm through without browning.",
+        "Serve immediately alongside toasted sourdough bread."
+      ]
+    },
+    {
+      "id": "rec-002",
+      "title": "One-Skillet Lemon Herb Chicken with Wilted Greens",
+      "description": "High-protein zero-waste dinner using expiring chicken breast and pantry essentials.",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "difficulty": "Medium",
+      "servings": 3,
+      "rescued_ingredients": [
+        "Chicken Breast Fillets",
+        "Organic Baby Spinach",
+        "Roma Tomatoes"
+      ],
+      "instructions": [
+        "Pat chicken breasts dry with paper towel and season both sides with salt, garlic powder, and oregano.",
+        "Heat olive oil in a heavy skillet over medium-high heat. Sear chicken 5-6 minutes per side until golden brown (internal temp 165°F/74°C). Transfer to a plate to rest.",
+        "In the same skillet, add diced tomatoes and sauté for 2 minutes to release juices.",
+        "Add baby spinach and toss until fully wilted.",
+        "Slice the chicken, arrange over the warm greens, and drizzle with fresh lemon juice."
+      ]
+    }
+  ],
+  "sample_notifications": [
+    {
+      "id": "notif-001",
+      "item_id": "item-002",
+      "item_name": "Organic Baby Spinach",
+      "type": "EXPIRY_24H",
+      "message": "Organic Baby Spinach expires in less than 24 hours. Cook in a skillet scramble or blend into a smoothie!",
+      "is_read": false,
+      "created_at": "2026-10-04T09:00:00Z"
+    },
+    {
+      "id": "notif-002",
+      "item_id": "item-001",
+      "item_name": "Whole Milk (1 Gallon)",
+      "type": "EXPIRY_48H",
+      "message": "Whole Milk expires in 30 hours. Consider using in baking, oatmeal, or making homemade paneer.",
+      "is_read": false,
+      "created_at": "2026-10-04T12:00:00Z"
+    },
+    {
+      "id": "notif-003",
+      "item_id": "item-009",
+      "item_name": "Fresh Strawberries",
+      "type": "EXPIRED",
+      "message": "Fresh Strawberries passed their estimated expiry date on Oct 3. Inspect quality or compost.",
+      "is_read": true,
+      "created_at": "2026-10-03T12:00:00Z"
+    }
+  ],
+  "sample_analytics": {
+    "summary": {
+      "total_items_tracked": 42,
+      "consumed_rate_percent": 81.0,
+      "waste_diverted_kg": 14.8,
+      "estimated_money_saved_usd": 78.50,
+      "active_fresh": 6,
+      "active_expiring_soon": 4,
+      "active_expired": 1
+    },
+    "monthly_trends": [
+      { "month": "May 2026", "consumed": 18, "donated": 3, "wasted": 4, "diverted_kg": 9.2 },
+      { "month": "Jun 2026", "consumed": 22, "donated": 4, "wasted": 3, "diverted_kg": 11.5 },
+      { "month": "Jul 2026", "consumed": 25, "donated": 5, "wasted": 2, "diverted_kg": 13.0 },
+      { "month": "Aug 2026", "consumed": 24, "donated": 3, "wasted": 3, "diverted_kg": 12.1 },
+      { "month": "Sep 2026", "consumed": 28, "donated": 6, "wasted": 2, "diverted_kg": 15.2 },
+      { "month": "Oct 2026", "consumed": 12, "donated": 2, "wasted": 1, "diverted_kg": 6.8 }
+    ]
+  }
+}

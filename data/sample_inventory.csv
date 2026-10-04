@@ -1,0 +1,11 @@
+id,name,category,quantity,unit,location,purchase_date,expiry_date,status,confidence,notes
+item-001,Whole Milk (1 Gallon),Dairy & Eggs,1,gallon,Fridge,2026-10-01,2026-10-05T18:00:00Z,EXPIRING_SOON,0.95,Opened 3 days ago
+item-002,Organic Baby Spinach,Vegetables & Greens,250,g,Fridge,2026-10-02,2026-10-05T09:00:00Z,EXPIRING_SOON,0.92,Use for smoothie or saute
+item-003,Greek Yogurt (Plain),Dairy & Eggs,500,g,Fridge,2026-10-01,2026-10-06T12:00:00Z,EXPIRING_SOON,0.88,Breakfast parfaits
+item-004,Ripe Hass Avocados,Fresh Fruits,2,pcs,Pantry,2026-10-02,2026-10-05T20:00:00Z,EXPIRING_SOON,0.90,Soft to the touch
+item-005,Free-Range Large Eggs,Dairy & Eggs,12,count,Fridge,2026-10-01,2026-10-22T00:00:00Z,FRESH,0.98,Standard carton
+item-006,Artisan Sourdough Loaf,Bakery & Bread,1,loaf,Pantry,2026-10-03,2026-10-07T12:00:00Z,FRESH,0.85,Can freeze half if unused
+item-007,Chicken Breast Fillets,Meat & Seafood,600,g,Fridge,2026-10-03,2026-10-06T23:59:00Z,EXPIRING_SOON,0.94,Cook for dinner or freeze
+item-008,Roma Tomatoes,Vegetables & Greens,4,pcs,Pantry,2026-10-01,2026-10-08T00:00:00Z,FRESH,0.87,Fresh salad or pasta
+item-009,Fresh Strawberries,Fresh Fruits,1,box,Fridge,2026-09-28,2026-10-03T12:00:00Z,EXPIRED,0.90,Check for mold before compost
+item-010,Jasmine White Rice,Pantry Staples & Grains,2,kg,Pantry,2026-09-15,2027-03-15T00:00:00Z,FRESH,0.99,Airtight container

@@ -1,0 +1,8 @@
+{
+  "name": "SmartBite",
+  "description": "SmartBite helps you track ingredients, get expiry alerts, and make the most of the food you already have.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
